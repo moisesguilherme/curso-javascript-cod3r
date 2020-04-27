@@ -1,0 +1,8 @@
+//const exibeNome = (nome, sobrenome) => "Olá " + nome + ' ' + sobrenome
+//const exibeNome = (nome, sobrenome) => `Olá ${nome} ${sobrenome}`
+
+const exibeNome = (nome, sobrenome) => {
+    return `Olá ${nome} ${sobrenome}`
+}
+
+console.log(exibeNome('Moisés','Freitas'))

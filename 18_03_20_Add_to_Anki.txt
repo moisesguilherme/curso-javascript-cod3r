@@ -1,0 +1,120 @@
+Anki js
+
+=-=-=-=-
+
+//Observe a nova forma de criar um objeto, passando seus valores.
+const a = 1
+const b = 2
+const c = 3
+
+const obj1 = { a: a, b: c, c: c} // Não precia mais dessa duplicidade
+const obj2 = { a, b, c}
+console.log(obj1, obj2)
+
+=-=-=-=-
+
+[digitar e resposta]
+//Usando a notação [], crie um atributo usando a variável nomeAttr, no objeto com o valor da variável valorAttr.
+const nomenttr = 'nota'
+const valorAttr = 7.87
+
+const obj4 = {[nomeAttr]: valorAttr}
+console.log(obj4) // { nota: 7.87 }
+
+
+=-=-=-=-
+// Observe que na nova atualização do ECMA Escript 2015, vc cria a função na forma abaixo: funcao2
+const obj5 = {
+    funcao1: function() { //Função anônima
+        // ....
+    },
+    funcao2() {
+        // ...
+    }
+}
+//Uma forma mais reduzida. 
+console.log(obj5) //{ funcao1: [Function: funcao1], funcao2: [Function: funcao2] }
+
+=-=-=-=-=-
+//Observar o objeto abaixo, e visualize o resultado de cada expressão.
+const pessoa = {
+    nome: 'Rebeca',
+    idade: 2,
+    peso: 13
+}
+
+console.log(Object.keys(pessoa)) 
+console.log(Object.values(pessoa)) 
+console.log(Object.entries(pessoa)) 
+//resposta:
+// [ 'nome', 'idade', 'peso' ]
+// [ 'Rebeca', 2, 13 ]
+// [ [ 'nome', 'Rebeca' ], [ 'idade', 2 ], [ 'peso', 13 ] ]
+
+=-=-=-
+
+//Observer como usar o forEach para pegar cada elemento do objeto, usando o Object.entries.
+
+const pessoa = {
+    nome: 'Rebeca',
+    idade: 2,
+    peso: 13
+}
+
+Object.entries(pessoa).forEach( e => {
+    console.log(`${e[0]}: ${e[1]}`)
+})
+
+Resposta:
+nome: Rebeca
+idade: 2
+peso: 13
+
+=-=-=-=-
+//Como melhorar o código abaixo usando o destructing com chave, valor.
+
+const pessoa = {
+    nome: 'Rebeca',
+    idade: 2,
+    peso: 13
+}
+
+Object.entries(pessoa).forEach( e => {
+    console.log(`${e[0]}: ${e[1]}`)
+})
+
+Resposta:
+
+Object.entries(pessoa).forEach( ([chave, valor]) =>{
+    console.log(`${chave}: ${valor}`)
+})
+
+=-=-=-=-=-=-
+
+// Definir um atribudo em um objeto, que não pode ser alterado.
+const pessoa = {
+    nome: 'Rebeca',
+    idade: 2,
+    peso: 13
+}
+
+Object.defineProperty (pessoa, 'dataNascimento', {
+    enumerable: false, //se vai ser visível o nome do atributo
+    writable: false,
+    value: '01/01/2019'
+})
+
+
+=-=-=-=-=-=-
+//Observer o uso do Object.assing (ECMAScript 2015)
+const dest = { a: 1 }
+const o1 = { b: 2 }
+const o2 = { c: 3, a: 4}
+const obj = Object.assign(dest, o1, o2) //vai adicionar os objetos, 1 e 2 no dest
+
+=-=-=-=-=-
+Como não deixar alterar um atributo em um obj.
+resposta
+Object.freeze(obj)
+=-=-=-=-=-
+
