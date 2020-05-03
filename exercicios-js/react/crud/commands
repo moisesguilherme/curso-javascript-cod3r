@@ -1,0 +1,5 @@
+npm init -y
+
+npm i --save json-server@0.13.0 -E  //salvar no pckage.json
+
+npm i //instalar a
