@@ -1,11 +1,19 @@
 {
-    "users" : [{
-        "id" : 1,
-        "name": "Arthur Oliveira",
-        "email": "aoliveira@cod3r.com.br"
-    },{
-        "id": 2,
-        "name": "Maria Julia da Silva",
-        "email": "mjds@empresa.com"
-    }]
+  "users": [
+    {
+      "name": "Moisés Guilherme P",
+      "email": "moises.guilherme@gmail.com",
+      "id": 4
+    },
+    {
+      "name": "Abia Alves",
+      "email": "abia@gmail.com",
+      "id": 5
+    },
+    {
+      "name": "Ana Lopes",
+      "email": "ana@gmail.com",
+      "id": 6
+    }
+  ]
 }

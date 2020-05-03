@@ -6,6 +6,6 @@ export default props =>
         subtitle="Segundo Projeto do capítulo de React.">
         <div className='display-4'>Bem Vindo!</div>
         <hr />
-        <p className="nb-0">Sistema para exemplificar a construçã
+        <p className="nb-0">Sistema para exemplificar a construção
         de um cadastro desenvolvido em React!</p>
     </Main>
