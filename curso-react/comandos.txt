@@ -1,0 +1,6 @@
+para criar o projeto
+npx create-react-app fundamentos-react
+
+cd fundamentos-react
+npm start
+

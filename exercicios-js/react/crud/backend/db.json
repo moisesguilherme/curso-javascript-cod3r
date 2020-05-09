@@ -1,19 +1,25 @@
 {
   "users": [
     {
-      "name": "Moisés Guilherme P",
-      "email": "moises.guilherme@gmail.com",
-      "id": 4
-    },
-    {
-      "name": "Abia Alves",
-      "email": "abia@gmail.com",
+      "email": "admin2@unaroadmap.com.b3",
       "id": 5
     },
     {
       "name": "Ana Lopes",
       "email": "ana@gmail.com",
       "id": 6
+    },
+    {
+      "name": "Guilherme",
+      "email": "moisescomp@gmail.com",
+      "id": 7
+    },
+    {
+      "email": "candidato@yahoo.com.br",
+      "password": "123",
+      "status": "Active",
+      "profile": "Candidato",
+      "id": 8
     }
   ]
 }
