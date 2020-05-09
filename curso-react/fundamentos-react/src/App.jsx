@@ -3,6 +3,7 @@ import Primeiro from './components/basicos/Primeiro'
 import ComParametro from './components/basicos/ComParametro'
 import Fragmento from './components/basicos/Fragmento'
 
+import Aleatorio from './components/basicos/Aleatorio'
 //arrow function 
 // (props) => {}
 // () => {}
@@ -20,4 +21,8 @@ export default () =>
             nota={8.7}
         />
         <Primeiro></Primeiro>
+        <Aleatorio
+            min="0"
+            max="100"
+        />
     </div>
