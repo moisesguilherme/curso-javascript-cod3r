@@ -9,8 +9,8 @@ export default function ComParametro(props) {
             <h2>{props.titulo}</h2>
             <p>
                 <strong>{props.aluno} </strong>
-                 tem nota 
-                 <strong> { notaInt } </strong>
+                 tem nota
+                 <strong> {notaInt} </strong>
                  e foi
                  <strong> {status}</strong>
             </p>
