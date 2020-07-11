@@ -1,9 +1,17 @@
 import React, { Component } from 'react';
 
-class MegaSena extends Component {
 
-    state = {
-        numeros: [],
+
+class MegaSena extends Component {
+     
+    constructor(props){
+        super(props);
+        
+        this.state = {
+                      numeros:[],
+                      qnt:6
+                    };
+
     }
 
     sortfunction = (a, b) => {
@@ -18,7 +26,7 @@ class MegaSena extends Component {
     verificaSeExisteNumero = (num) => {
         let existe = false;
         for(let i=0; i< this.state.numeros.length;i++){
-            if( this.state.numeros[i] == num){
+            if( this.state.numeros[i] === num){
                 existe = true;
                 break;
             }
@@ -28,49 +36,75 @@ class MegaSena extends Component {
     }
 
 
-    addNumero = (num) => {
-        
-        this.state.numeros.push(num)
-
+    addNumero = (arr) => {
+        console.log(">>>> arr", arr) 
         this.setState({
-            numeros: [...this.state.numeros]
-        });
-
+             numeros: [...arr]
+         });
     }
 
     resetNumeros = () => {
+        console.log(">>>> reset")
         this.setState({
-            numeros: []
+            numeros:[]
         });
     }
 
-    ordenaNumeros = () => {
-        this.setState({
-            numeros: [...this.state.numeros.sort(this.sortfunction)]
-        });
+    ordenaNumeros = (arr) => {
+      
+        return arr.sort(this.sortfunction);
     }
 
     gerarNumero = (qtd) => { 
-        
-        this.resetNumeros();        
+       
+        qtd = isNaN(qtd) || qtd <= 6? 6 : qtd;
 
-        while(this.state.numeros.length <= 5){
+        console.log(">>> qtd", qtd);
+        console.log(">>>>", this.state.numeros.length);
+
+        var newArr = [];
+        for(let i=0;i<=qtd; i++){
             let novoNumero = this.geraNumeroAleatorio(60,1) 
             if(!this.verificaSeExisteNumero(novoNumero)){
-               this.addNumero(novoNumero);           
-            }
+                 newArr.push(novoNumero);           
+             }
         }
+
+        return newArr;
         
-        this.ordenaNumeros()
+    }
+
+    handleSubmit(event) {
+        event.preventDefault();
+        //this.resetNumeros();  
+        var arr = this.gerarNumero(this.state.qnt);
+        var ord = this.ordenaNumeros(arr);
+        this.addNumero(ord);
+    }
+
+    handleChange(event) {
+        const value = event.target.value;
+        const name =  event.target.name;
+        console.log("name", name, "value", value);
+        this.setState({qnt: value})
+        
     }
 
     
-
     render(){
         return(
             <div>
                 <h1>Numeros: {this.state.numeros.toString()}</h1>
-                <button onClick={this.gerarNumero}>Gerar</button>
+                <form onSubmit={ (e) => this.handleSubmit(e) }>
+                    <label htmlFor="qnt">Numero</label>
+                    <input id="qntInput"
+                        name="qnt"
+                        type="number"
+                        value={this.state.qnt}
+                        onChange={(e) => this.handleChange(e)}
+                        />
+                    <input type="submit" value="Evnair"/>
+                </form>
             </div>
     
         )        

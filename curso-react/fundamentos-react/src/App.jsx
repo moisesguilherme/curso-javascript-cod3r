@@ -3,7 +3,7 @@ import React from 'react'
 
 import Card from './components/layout/Card'
 
-import MegaSena from './components/MegaSena/MegaSena'
+import MegaSena from './components/MegaSena/MegaResolvido'
 import Contador from './components/contador/Contador'
 import Input from './components/formulario/Input'
 import IndiretaPai from './components/comunicacao/IndiretaPai'
@@ -33,8 +33,8 @@ export default () =>
 
         <div className="Cards">
 
-            <Card titulo="#13 - MegaSena" color="#414212">
-                <MegaSena/>
+            <Card titulo="#13 - MegaSena" color="#B9006E">
+                <MegaSena qtde={8}/>
             </Card>
 
             <Card titulo="#12 - Contador (input)" color="#424242">
