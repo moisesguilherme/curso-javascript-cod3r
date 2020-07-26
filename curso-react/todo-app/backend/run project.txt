@@ -1,0 +1,2 @@
+Comando para rodar o backend
+npm run dev
