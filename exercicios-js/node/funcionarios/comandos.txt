@@ -1,0 +1,16 @@
+// inicia a criação dos pacotes e package.json
+npm init
+
+// Não faz perguntas, inicia direto
+npm init -y
+
+// Instala uma dependicia e adiciona no package.json
+npm i --save axios
+
+// Salva apenas para dependecia de dev, por exemplo de teste. -E exatamente.
+npm i --save-dev axios@0.17.1 -E
+
+Anotações
+axios": "^0.19.2"  --> ^ não atualiza a versão, no caso o MAJOR, MINOR, FIXED
+Quando tem o ~ pega o que tem o fix mais novo, atual.
+
