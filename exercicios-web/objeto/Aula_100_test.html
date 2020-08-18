@@ -1,0 +1,22 @@
+<html>
+    <head>
+       
+    </head>
+    <body>
+        <button id="myNiceButton">Click</button>
+    </body>
+
+    <script>          
+        let dog = {
+            sound: 'woof',
+            talk: function() {
+                console.log(this.sound)
+            }
+        }
+
+        let myButton = document.getElementById('myNiceButton')
+        myButton.addEventListener('click', () => { dog.talk() } )
+    </script>
+
+</html>
+

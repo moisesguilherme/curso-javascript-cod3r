@@ -1,0 +1,45 @@
+//Contexto de execução - browser vs node
+//Runtime no front-end vai ser executado entro do browser, no back end vai ser no NODE
+//Linguagem c like - tem semelhança com o c, usam os mesmos tokens {}
+//Ver vídeo qual é o padrão mais utilizado na web coder //Padrão observer
+
+//Ctrl + shift + i = //browser abrir o console
+
+window
+this
+this == window //true
+var a = 'Texto'
+window.a //Texto
+
+var a = 123
+window.a //123
+this.a //123
+
+//O let não vai para local
+let b = 123 
+window.b //undefined ela é uma variável global mas não está no window
+// O var vai direto para o window e o const e let não.
+this.b //undefined
+
+let b = 123
+//VM408:1 Uncaught SyntaxError: Identifier 'b' has already been declared
+//    at <anonymous>:1:1
+
+const c = 456
+window.c //undefined
+
+function f1() { return this === window }
+f1() //true
+
+this.f1() //true
+window.f1() //true
+
+const f2 = () => console.log(this === window)
+f2() //true
+this.f2() //Erro
+VM941:1 Uncaught TypeError: this.f2 is not a function
+    at <anonymous>:1:6
+
+window.f2() //Erro
+VM985:1 Uncaught TypeError: window.f2 is not a function
+    at <anonymous>:1:
