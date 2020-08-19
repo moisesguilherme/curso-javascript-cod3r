@@ -1,14 +1,37 @@
 <html>
   <head>
     <title>Um Pouco de CSS</title>
+    <link rel="stylesheet" href="poucoDeCSS.css">
     <style>
-        
+      h1 {
+        /*display: none;
+        background-color: red;
+        position: absolute;
+        top: 400px;
+        right: 400px;*/
+        font-size: 20px;
+      }
+
+      .fundoVermelho { /* . para acessar classe css*/
+        background-color: #C00
+      }
+
+      .negrito {
+        font-weight: bold;
+      }
+
     </style>
+    <!-- 
+      no browser:
+      document.querySelectorAll('.fundovermelho')
+      document.querySelectorAll('#textoPrincipal')
+      document.querySelector('[wm-atrib]')
+    -->
   </head>
   <body>
     <h1>CSS</h1>
-    <span>Texto 1</span><br>
-    <span>Texto 2 </span>
-
+    <span id="textoPrincipal" style="display: none;">Texto 1</span><br><br><br>
+    <span class="fundoVermelho negrito">Texto 2</span><br><br>
+    <span class="fundoVermelho" wm-atrib>Texto 3</span>
   </body>
 </html>
