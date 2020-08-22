@@ -1,18 +1,18 @@
 <h1>Projeto</h1>
 <ul class="tree">
-  <li>
-    <span wm-folder>backend</span>  
+  <li wm-item="open">
+    backend
     <ul>
-      <li>
-        <span wm-folder>app</span>
+      <li wm-item="open">
+        app
         <ul>
           <li>produto.js</li>
           <li>usuário.js</li>
           <li>venda.js</li>
         </ul>
        </li>
-       <li>
-        <span wm-folder>config</span>
+       <li wm-item="open">
+         config
          <ul>
            <li>banco.js</li>
            <li>rotas.js</li>
@@ -21,11 +21,11 @@
        </li>
     </ul>
   </li>
-  <li>
-    <span wm-folder>frontend</span>
+  <li wm-item="open">
+    frontend
     <ul>
-      <li>
-        <span wm-folder>public</span>
+      <li wm-item="open">
+        public
         <ul>
             <li>app.css</li>
             <li>app.js</li>
@@ -39,16 +39,20 @@
 <link rel="stylesheet" href="http://files.cod3r.com.br/curso-web/tree.css">
 
 <script>
-  document.querySelectorAll('[wm-folder]').forEach(folder => {
+  document.querySelectorAll('[wm-item]').forEach(link => {
     
-    folder.onclick = function(e) {  
-      //debugger
-      //console.log('teste')
-      const ul = folder.nextElementSibling;
-      const d = ul.style.display
-      ul.style.display = d === 'none' ? 'block' : 'none'
-      
-    }
+    
+    link.onclick = function(e) {  
+        //e.preventDefault();
+        e.stopPropagation();
+        if(e.target.getAttribute('wm-item') === 'open'){
+            console.log('entrou')   
+            e.target.querySelectorAll('li > ul').forEach(ul => {
+              ul.hidden = !ul.hidden;
+            })
+        }
+      }
+
   })
 
 </script>
