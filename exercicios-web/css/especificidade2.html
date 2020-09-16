@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        /* https://specificity.keegan.st/ 
+            1. Inline
+            2. ID
+            3. Classe, Pseudo-Classe, atribdo
+            4. Elemento, Pseudo-Elemento
+        
+        */
+
+        body {font-size: 40px; }
+
+        
+        /* especifidade 1: ELEMENTOS e PSEUDO-ELEMENTOS*/
+        div { background-color: #00B; color: #fff;}
+        
+        /* especifidade 11: ELEMENTOS e Atributos*/
+        div[wm-cor] { background-color: darkorange;}
+
+       
+       /* especifidade 11: ELEMENTOS e classe
+        */
+        div.estilo { background-color: green }
+       
+       
+        /* especifidade 11: ELEMENTOS e Pseudo-elements
+           -> ganha quem for o ultimo.
+        */
+        div:hover { background-color: purple}
+
+        /* ID sempre ganha */
+        #unico1, #unico2 { background-color: #000}
+        div:hover, #unico1:hover { background-color: purple}
+       
+        /* O inline sempre vai ganhar */
+         
+    </style>
+</head>
+
+<body>
+    <div id="unico1" class="estilo" style="background-color:red;">
+        #unico1 vs .estilo vs inline
+    </div>
+    <div id="unico2" class="estilo">#unico2 vs .estilo</div>
+    <div class="estilo" wm-cor>.estilo vs wm-cor</div>
+    <div wm-cor>wm-cor</div>
+    <div class="estilo">.estilo</div>
+    <div>elemento</div>
+</body>
+
+</html>

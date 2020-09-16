@@ -1,8 +1,16 @@
-    let a = 2
+    // let a = 2
+
+    // module.exports = {
+    //     teste: a,
+    //     bomDia: 'Bom dia',
+    //     boaNoite() {
+    //         return 'Boa noite'
+    //     }
+    // }
+
 
     module.exports = {
-        teste: a,
-        bomDia: 'Bom dia',
+        bomDia: 'Boa dia',
         boaNoite() {
             return 'Boa noite'
         }

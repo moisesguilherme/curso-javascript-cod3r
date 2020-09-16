@@ -1,0 +1,632 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" lang="en-US">
+<head profile="http://gmpg.org/xfn/11">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name=viewport content="width=device-width, initial-scale=1">	
+<link media="screen" href="https://www.pendrivelinux.com/wp-content/cache/autoptimize/css/autoptimize_dec734a21fbd409d64d1be82f2139f3a.css" rel="stylesheet" /><title>YUMI - Multiboot USB Creator | Pen Drive Linux</title>
+<meta name="keywords" content="bootable software, bootable usb, live linux usb, Live Linux USB Creator, live usb, Multiboot, Multiboot ISO, Multiboot Live USB, Multiboot USB, Multiboot USB Creator, Multisystem USB, Universal USB Installer" />
+
+<link rel="alternate" type="application/rss+xml" title="Pen Drive Linux RSS Feed" href="https://www.pendrivelinux.com/feed/atom/" />
+<link rel="pingback" href="https://www.pendrivelinux.com/xmlrpc.php" />
+
+<!-- This site is running CAOS for Wordpress -->
+
+	<!-- This site is optimized with the Yoast SEO plugin v14.9 - https://yoast.com/wordpress/plugins/seo/ -->
+	<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+	<link rel="canonical" href="https://www.pendrivelinux.com/yumi-multiboot-usb-creator/" />
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="article" />
+	<meta property="og:title" content="YUMI - Multiboot USB Creator | Pen Drive Linux" />
+	<meta property="og:description" content="YUMI (Your Universal Multiboot Installer), is the successor to our MultibootISOs. It can be used to create a Multiboot Bootable [&hellip;]" />
+	<meta property="og:url" content="https://www.pendrivelinux.com/yumi-multiboot-usb-creator/" />
+	<meta property="og:site_name" content="Pen Drive Linux" />
+	<meta property="article:published_time" content="2011-03-14T03:18:15+00:00" />
+	<meta property="article:modified_time" content="2020-09-02T04:18:16+00:00" />
+	<meta property="og:image" content="https://www.pendrivelinux.com/wp-content/uploads/YUMI-Boot-Menu-1.png" />
+	<meta property="og:image:width" content="1200" />
+	<meta property="og:image:height" content="901" />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:creator" content="@Pendrivelinux" />
+	<meta name="twitter:site" content="@Pendrivelinux" />
+	<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://www.pendrivelinux.com/#organization","name":"Pen Drive Linux","url":"https://www.pendrivelinux.com/","sameAs":["https://twitter.com/Pendrivelinux"],"logo":{"@type":"ImageObject","@id":"https://www.pendrivelinux.com/#logo","inLanguage":"en-US","url":"https://www.pendrivelinux.com/wp-content/uploads/pendrivelinux-tux.png","width":112,"height":112,"caption":"Pen Drive Linux"},"image":{"@id":"https://www.pendrivelinux.com/#logo"}},{"@type":"WebSite","@id":"https://www.pendrivelinux.com/#website","url":"https://www.pendrivelinux.com/","name":"Pen Drive Linux","description":"Boot and run Linux from a USB flash memory stick | Pen Drive Linux","publisher":{"@id":"https://www.pendrivelinux.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://www.pendrivelinux.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#primaryimage","inLanguage":"en-US","url":"https://www.pendrivelinux.com/wp-content/uploads/YUMI-Boot-Menu-1.png","width":1200,"height":901,"caption":"YUMI - Multi Boot Menu"},{"@type":"WebPage","@id":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#webpage","url":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/","name":"YUMI - Multiboot USB Creator | Pen Drive Linux","isPartOf":{"@id":"https://www.pendrivelinux.com/#website"},"primaryImageOfPage":{"@id":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#primaryimage"},"datePublished":"2011-03-14T03:18:15+00:00","dateModified":"2020-09-02T04:18:16+00:00","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://www.pendrivelinux.com/yumi-multiboot-usb-creator/"]}]},{"@type":"Article","@id":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#article","isPartOf":{"@id":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#webpage"},"author":{"@id":"https://www.pendrivelinux.com/#/schema/person/a6d2357c831403a204bd049a9747ac92"},"headline":"YUMI &#8211; Multiboot USB Creator","datePublished":"2011-03-14T03:18:15+00:00","dateModified":"2020-09-02T04:18:16+00:00","mainEntityOfPage":{"@id":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#webpage"},"publisher":{"@id":"https://www.pendrivelinux.com/#organization"},"image":{"@id":"https://www.pendrivelinux.com/yumi-multiboot-usb-creator/#primaryimage"},"keywords":"bootable software,bootable usb,live linux usb,Live Linux USB Creator,live usb,Multiboot,Multiboot ISO,Multiboot Live USB,Multiboot USB,Multiboot USB Creator,Multisystem USB,Universal USB Installer","articleSection":"Bootable USB Creator Software","inLanguage":"en-US"},{"@type":"Person","@id":"https://www.pendrivelinux.com/#/schema/person/a6d2357c831403a204bd049a9747ac92","name":"admin","image":{"@type":"ImageObject","@id":"https://www.pendrivelinux.com/#personlogo","inLanguage":"en-US","url":"https://www.pendrivelinux.com/wp-content/uploads/pendrivelinux-tux-100x100.png","caption":"admin"},"sameAs":["https://twitter.com/Pendrivelinux"]}]}</script>
+	<!-- / Yoast SEO plugin. -->
+
+
+<link rel="amphtml" href="https://www.pendrivelinux.com/yumi-multiboot-usb-creator/amp/" /><meta name="generator" content="AMP for WP 1.0.62.2"/><link rel='preconnect' href='//www.google-analytics.com' />
+<link rel="https://api.w.org/" href="https://www.pendrivelinux.com/wp-json/" /><link rel="alternate" type="application/json" href="https://www.pendrivelinux.com/wp-json/wp/v2/posts/5591" /><link rel="alternate" type="application/json+oembed" href="https://www.pendrivelinux.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pendrivelinux.com%2Fyumi-multiboot-usb-creator%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.pendrivelinux.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.pendrivelinux.com%2Fyumi-multiboot-usb-creator%2F&#038;format=xml" />
+<meta name="verify-v1" content="S02exvdePDFJ9VGZUxwY0OdRBoXi5NdWIrn3uixcvn8=" />
+<meta name="google-site-verification" content="olHDhRM8VlAnoq44hE_WC81iHeoLA-C2mXlt-1J9VeU" />	
+<link rel="icon" type="image/x-icon" sizes="16x16" href="/favicon.ico">	
+<script data-ad-client="ca-pub-0932618358223805" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>	
+</head>
+<body>
+<div id="page">
+<div id="headerimg">
+<div id="navbar">
+ <ul id="nav">
+  <li><a href="https://www.pendrivelinux.com">Home</a></li>
+  <li><a rel="nofollow" href="https://www.pendrivelinux.com/disclaimer/">Disclaimer</a></li>
+  <li><a rel="nofollow" href="https://www.pendrivelinux.com/privacy-policy/">Privacy Policy</a></li>	 
+  <li><a rel="nofollow" href="https://www.pendrivelinux.com/contact/">Contact</a></li> 
+ </ul>
+</div>
+
+<div id="searchit2">
+<div style="width:250px;">
+	
+<form method="get" id="searchform" action="https://www.pendrivelinux.com/">
+<div><input type="text" value="" name="s" id="s" />
+<input type="submit" id="searchsubmit" value="Search" />
+</div>
+</form>
+	
+</div>
+</div>
+
+<div id="rss"><a href="https://www.pendrivelinux.com/feed/atom/" title="Subscribe to the Pendrivelinux RSS Feed"></a></div>
+</div><div class="KonaBody">
+	<div id="content" class="narrowcolumn">	
+<div class="post" id="post-5591">
+<h1>YUMI &#8211; Multiboot USB Creator</h1>
+  
+	
+<div style="float:left; margin-top:15px; margin-right:10px; width:100%; height:auto;">
+</div>
+			<div class="entrytext">
+				<p>YUMI (Your Universal Multiboot Installer), is the successor to our MultibootISOs. It can be used to create a Multiboot Bootable USB Flash Drive containing multiple operating systems, antivirus utilities, disc cloning &#8211; backup, penetration testing, diagnostic tools, and much more. YUMI makes it easy for anyone to create their very own custom All-In-One Multi use diagnostic USB PC Repair Toolkit. </p><div><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 336x280 Above The Fold PDL -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0932618358223805"
+     data-ad-slot="1758812486"
+     data-ad-format="auto"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div>
+<p>Contrary to MultiBootISOs which used grub to boot ISO files directly from USB, YUMI uses syslinux to boot extracted distributions stored on the USB device, and reverts back to using grub to <em>Boot Multiple ISO files from USB</em>, if necessary.</p>
+<p>Aside from a few distributions, all files are stored within the Multiboot folder, making for a nicely organized Portable Multiboot USB Drive that can still be used for other storage purposes.</p>
+<p>YUMI was originally intended to be used to store and run various &#034;LIVE Linux&#034; Operating Systems and tools from USB. Using YUMI to install Linux from USB to a Hard Drive works on many but not all distributions. (I&#039;m working to address this). If you find a distribution where the install does not work, please let me know.</p>
+<p><span id="more-5591"></span></p>
+<h2>YUMI Multiboot Bootable USB Flash Drive Creation</h2>
+<p>YUMI works much like Universal USB Installer, except it can be used to add more than one distribution to run Live from your Thumb Drive. USB Bootable Distributions can also be uninstalled using the same tool!<br />
+<noscript><img class="alignnone wp-image-5600 size-full" title="YUMI - Multiboot USB Creator" src="https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator.png" alt="YUMI - Multiboot USB Creator" width="450" height="350" srcset="https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator.png 499w, https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator-100x78.png 100w, https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator-300x233.png 300w" sizes="(max-width: 450px) 100vw, 450px" /></noscript><img class="lazyload alignnone wp-image-5600 size-full" title="YUMI - Multiboot USB Creator" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20450%20350%22%3E%3C/svg%3E' data-src="https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator.png" alt="YUMI - Multiboot USB Creator" width="450" height="350" data-srcset="https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator.png 499w, https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator-100x78.png 100w, https://www.pendrivelinux.com/wp-content/uploads/YUMI-Multiboot-USB-Creator-300x233.png 300w" data-sizes="(max-width: 450px) 100vw, 450px" /></p>
+<h2>YUMI Main Multiboot USB Boot Menu</h2>
+<p><noscript><img class="alignnone size-full wp-image-5602" title="YUMI's - Multiboot Boot Menu" src="/wp-content/uploads/YUMI-Boot-Menu.png" alt="YUMI - Multiboot Boot Menu" width="450" height="329" /></noscript><img class="lazyload alignnone size-full wp-image-5602" title="YUMI's - Multiboot Boot Menu" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20450%20329%22%3E%3C/svg%3E' data-src="/wp-content/uploads/YUMI-Boot-Menu.png" alt="YUMI - Multiboot Boot Menu" width="450" height="329" /></p>
+<h3>Legacy YUMI Download and Changelog:</h3>
+<p><strong><span style="color: #800000;">Aug 04, 2020</span></strong> <strong>YUMI-2.0.7.4.exe</strong>: Update to support Endeavour OS. Fix broken links for Antergos, EasyPeasy, Xpud, Bluestar, and CubLinux. </p>
+<p><strong><small>YUMI MD5: E0F998CC0A60B6B7988EAC628B02BFE7</small></strong></p>
+<div id="button"><a href="/downloads/YUMI/YUMI-2.0.7.4.exe" target="_blank" rel="noopener noreferrer"><noscript><img title="Download YUMI-2.0.7.4.exe" src="/wp-content/uploads/yumi-download.png" alt="Download YUMI-2.0.7.4.exe for Windows" /></noscript><img class="lazyload" title="Download YUMI-2.0.7.4.exe" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="/wp-content/uploads/yumi-download.png" alt="Download YUMI-2.0.7.4.exe for Windows" /><span style="position: absolute; top: 43px; left: 90px; padding: 0; margin: 0; color: #4a4a4a; font-size:12px;">YUMI-2.0.7.4.exe</span></a><small><span class="source" style="float: right; padding-top: 30px;"><a title="Source Code for YUMI-2.0.7.4.exe" target="_blank" rel="noopener noreferrer" href="/downloads/YUMI/YUMI-2.0.7.4.src.zip">YUMI Source Code</a></span></small></div>
+<p>The following YUMI UEFI version is a work in progress that utilize GRUB2 for both UEFI and BIOS booting. Please NOTE that it is not backwards compatible with standard YUMI. Supported distributions are limited, and your USB drive must be Fat32 formatted to support booting in UEFI mode. (Only BIOS mode will work with NTFS formatted drives).</p>
+<div>
+<h3>YUMI UEFI Download and Changelog:</h3>
+<p><strong><span style="color: #800000;">Sept 01, 2020</span></strong> <strong>YUMI-UEFI-0.0.2.7.exe</strong>: Update to support KDE Neon, and newer Ubuntu Server 18.04 + 20.04</p>
+<p><strong><small>YUMI UEFI MD5: 45350AA37EC3D7DA45559E4C32F096CC</small></strong></p>
+<div id="button"><a href="/downloads/YUMI/YUMI-UEFI-0.0.2.7.exe" target="_blank" rel="noopener noreferrer"><noscript><img title="Download YUMI UEFI" src="/wp-content/uploads/yumi-download.png" alt="Download YUMI-UEFI-0.0.2.7.exe" /></noscript><img class="lazyload" title="Download YUMI UEFI" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="/wp-content/uploads/yumi-download.png" alt="Download YUMI-UEFI-0.0.2.7.exe" /><span style="position: absolute; top: 43px; left: 90px; padding: 0; margin: 0; color: #4a4a4a; font-size:12px;">YUMI-UEFI-0.0.2.7.exe</span></a><small><span  class="source" style="float: right; padding-top: 30px;"><a title="YUMI UEFI BETA Source Code" target="_blank" rel="noopener noreferrer" href="/downloads/YUMI/YUMI-UEFI-0.0.2.7.src.zip">YUMI UEFI Source Code</a></span></small></div>
+<p>Important YUMI UEFI info: You&#039;ll need to disable secure boot (if it&#039;s enabled). Drive must be Fat32 formatted if you want to UEFI boot.</p>
+</div>
+<p><strong>Running YUMI from LINUX:</strong> <small>WINE has previously worked for running YUMI from a Linux OS, with the exception of Fat32 Formatting the USB drive. See <a href="https://www.pendrivelinux.com/yumi-multiboot-usb-creator#HowTo">How To</a></small></p>
+<div id="tabs" class="scroller">
+<ul id="css-tabs">
+<li><a href="#YUMI-Requirements">Requirements</a></li>
+<li><a href="#Changelog">Changelog</a></li>
+<li><a href="#HowTo">HowTo</a></li>
+<li><a href="#Supported-Distros">Supported Distros</a></li>
+<li><a href="#FAQ">FAQ</a></li>
+</ul>
+<div id="box">
+<div class="box" id="YUMI-Requirements">
+<p><small><span style="color: #ff0000;"><strong>IMPORTANT NOTES</strong></span>: Your USB drive must be Fat16/Fat32/NTFS formatted, otherwise Syslinux will fail and your drive will NOT Boot. NTFS may not work with every distribution but is required for storing files over 4GB. YUMI UEFI must use Fat32 format. </small></p>
+<p>YUMI can be used to format your select USB drive, but be aware that all partitions on the selected drive will also be deleted. Ensure that you have made a backup of any information you want to keep before using YUMI on any drive.</p>
+<p><strong>Basic Essentials to create a MultiSystem Bootable USB Drive</strong></p>
+<ul>
+<li><span style="color: #0066ff;">Fat32 or *NTFS Formatted USB Flash or USB Hard Drive</span></li>
+<li><span style="color: #0066ff;">PC that can boot from USB</span></li>
+<li><span style="color: #0066ff;">Windows Vista/7/8/10 or Linux/Mac OS with (WINE)</span></li>
+<li><span style="color: #0066ff;">YUMI-2.0.7.4.exe</span></li>
+<li><span style="color: #0066ff;">Your selection of ISO Files</span></li>
+</ul>
+<p><small>Please inform me of unlisted &#034;FREE&#034; Live Linux distributions or version revisions, and I will attempt to update YUMI to support them. Bootable Software developers who wish to have their &#034;PAID&#034; software added, can send me a copy to try.</small></p>
+</div>
+<div class="box" id="Changelog">
+<p><strong>YUMI UEFI Changelog</strong></p>
+<p>09/01/20 Version 0.0.2.7: Update to support KDE Neon, and newer Ubuntu Server 18.04 + 20.04</p>
+<p>08/05/20 Version 0.0.2.6: Update to support Endeavour OS, Bluestar, and Cublinux. Fix broken links for EasyPeasy, Avira Rescue CD, and Xpud. </p>
+<p>07/26/20 Version 0.0.2.5: Update to support LinuxFX (AKA: WindowsFX &#8211; an Ubuntu Based variant that looks and feels much like Windows 10).</p>
+<p>07/17/20 Version 0.0.2.4: Add support for Ubuntu&#039;s &#034;writable&#034; casper persistence file label.</p>
+<p>06/29/20 Version 0.0.2.3: Update to support Rescuezilla, Q4OS, and POP!OS</p>
+<p>04/29/20 Version 0.0.2.2: Update to support Solus, Feren OS, and Hiren&#039;s BootCD PE.</p>
+<p>03/16/20 Version 0.0.2.1: Update to support Linux Mint Debian Edition, Manjaro 19.0x, and newer ESET Sysrescue CD.</p>
+<p>11/05/19 Version 0.0.2.0: Update to support Acedemix and Finnix x86/64. Force Clonezilla to boot from RAM.</p>
+<p>10/20/19 Version 0.0.1.9: Update to support Tuxtrans, newer KNOPPIX, GData, G4L, and ArchLinux.</p>
+<p>10/09/19 Version 0.0.1.8: Added Persistence % progress bar. Update to support Demon Linux, and Open Mandriva.</p>
+<p>10/07/19 Version 0.0.1.7: Update to support Ubuntu Budgie and Deepin. Fix various download links.</p>
+<p>05/30/19 Version 0.0.1.6: Update to support newer Dr.Web and Kaspersky Rescue Disk and OpenSuse Leap. Add support for BionicPup, MX Linux, and Emmabuntus.</p>
+<p>04/28/19 Version 0.0.1.5: Quick fix to support newer Parted Magic 2019.</p>
+<p>04/27/19 Version 0.0.1.4: Update to support Manjaro 18.04, System Rescue Cd 6.0.3. Added support for Raspberry Pi Desktop.</p>
+<p>02/14/19 Version 0.0.1.3: Update to support Kodachi and Memtest86. Implement 7zip version 18.6. Fix broken Redo Backup homepage link. Add Anonymous Browsers section. Add Home, FAQ and Support links.</p>
+<p>01/06/19 Version 0.0.1.2: Fix to remove duplicate Linux Distributions Menu entry. Edit Grub 2 config to set root by &#8211;label MULTIBOOT. Revert to set gfxmode=640&#215;480 as auto still exhibits rendering issues on BIOS boot.</p>
+<p>01/05/19 Version 0.0.1.1: Update to support Acronis True Image 2019. Make Memtest 86+ option only appear for BIOS boot. Change to set gfxmode=auto</p>
+<p>12/27/18 Version 0.0.1.0: Fix case in configfile path (change from EFI/boot to EFI/BOOT) in boot/grub/grub.cfg. Update to use GRUB 2.03.</p>
+<p>11/04/18 Version 0.0.0.9: Update to support newer Ubuntu and derivatives using initrd instead of initrd.lz,.gz, etc.</p>
+<p>04/26/18 Version 0.0.0.8: Fix various broken links.</p>
+<p>03/10/18 Version 0.0.0.7: Update to support UEFI 32 bit firmware. Update to support newer Debian Live, and Fedora Workstation Live.</p>
+<p>12/10/17 Version 0.0.0.6: Update to support AEOMI Backupper. Fix broken Tails.</p>
+<p>10/06/17 Version 0.0.0.5: Update to support newer Tails and Manjaro. Fix broken Debian, Lubuntu, and Xubuntu links. Replace empty spaces in copied ISO files with dashes to prevent paths from breaking.</p>
+<p>01/19/17 Version 0.0.0.4: Fix to replace empty spaces in Distro filename with dashes. Update Get Drives function to ignore system and network drives. Correct some wording.</p>
+<p>08/19/16 Version 0.0.0.3: Add support for Arch Bang, Skywave Linux, and Cyborg Linux.</p>
+<p>07/28/16 Version 0.0.0.2: Fix entry for Slacko Puppy UEFI</p>
+<p>06/28/16 Version 0.0.0.1: Initial Release.</p>
+<p><strong>Standard YUMI Changelog</strong></p>
+<p>08/04/20 Version 2.0.7.4: Update to support Endeavour OS. Fix broken links for Antergos, EasyPeasy, Xpud, Bluestar, and CubLinux. </p>
+<p>07/26/20 Version 2.0.7.3: Update to support LinuxFX.</p>
+<p>07/17/20 Version 2.0.7.2: Support Ubuntu&#039;s &#034;writable&#034; casper persistence file label.</p>
+<p>06/27/20 Version 2.0.7.1: Update to support Q4OS, Rescuezilla, and newer Memtest86+ 5.31. Correct grub partition 4 Warning to read &#034;Fourth partition table entry is not empty&#034;.</p>
+<p>04/29/20 Version 2.0.7.0: Update to support booting Debian Live and Linux Mint, and Linux Mint Debian Edition via NTFS using Grub Partition 4.</p>
+<p>10/06/19 Version 2.0.6.9: Quick update to support newer Zorin OS.</p>
+<p>09/09/19 Version 2.0.6.8: Update to support Ubuntu Budgie, Deepin Linux, and Slackel. Update Archlinux boot method and Knoppix link.</p>
+<p>07/11/19 Version 2.0.6.7: Update to support OpenMandriva, Clear Linux, and Alpine Linux. Add support for newer Parrot OS, Fix Clonezilla entry to enable To RAM booting so that the USB stick can be moved to different machines once booted.</p>
+<p>05/28/19 Version 2.0.6.6: Update to support newer versions of OpenSUSE Leap Live, Dr.Web, and AntiX. Add support for Emmabuntus and BionicPup.</p>
+<p>04/27/19 Version 2.0.6.5: Fix to support System Rescue CD 6.0.3, and HD Sentinel</p>
+<p>02/26/19 Version 2.0.6.4: Quick update to add support for newer System Rescue CD 6.0.2+</p>
+<p>01/16/19 Version 2.0.6.3: Fix broken bootloader from version 2.0.6.2.</p>
+<p>01/10/19 Version 2.0.6.2: Update Fedora boot method. Remove changing of generic.lst to $ISOFileName.lst as sometimes the filename becomes too long to detect. Consolidate generic.lst entries into basic.lst. Create syslinux.bin file to be used for chainloading.</p>
+<p>12/02/18 Version 2.0.6.1a: Update to support newer Ubuntu and derivatives using initrd instead of initrd.lz,.gz, etc.</p>
+<p>11/30/18 Version 2.0.6.1: Include ability to see which Disk the drive letter is on. Improve DiskWipe option &#8211; rescan before creating a new partition.</p>
+<p>11/28/18 Version 2.0.6.0: Set Fat32 and NTFS Format options to format only the selected Volume Drive Letter. Include a new option to Wipe Entire Disk (including all attached Volumes/Partitions). The Wipe Entire Disk option can be used to Restore USB drives made bootable with DD, or to convert them back to use a single partition with a bootable MBR.</p>
+<p>10/31/18 Version 2.0.5.9: Update to support Pearl Linux. Fix some broken links. Fix Solus entry.</p>
+<p>07/20/18 Version 2.0.5.8: Update to support Norton Bootable Recovery Tool, Quick Save Live, Hiren&#039;s Boot CD PE, and newer CentOS 7 Live.</p>
+<p>06/19/18 Version 2.0.5.7: Update to support Kodachi, and newer Kaspersky Rescue Disk.</p>
+<p>05/06/18 Version 2.0.5.6: Update to support GeckoLinux and newer Porteus.</p>
+<p>04/25/18 Version 2.0.5.5: Fix various broken links.</p>
+<p>03/07/18 Version 2.0.5.4: Added initial support for KaOS, VyOS, Bluestar Linux, Raspberry Pi Desktop, and XenialPup. Medicat now extracts to the root folder until I find a fix for lost paths.</p>
+<p>01/09/18 Version 2.0.5.3: Added support for Super Grub2 Disk, Trisquel, newer LXLE, and Medicat.</p>
+<p>12/18/17 Version 2.0.5.2: Added support for MX Linux and Feren OS.</p>
+<p>10/28/17 Version 2.0.5.1: Added support for Parrot, Vinux (for the blind and visually impaired), POP!_OS, and WifiWay 3.5.</p>
+<p>09/26/17 Version 2.0.5.0: Added support for Antergos, PureOS, CentOS Installer, Ubuntu Mini (Netboot Installer), and recent Debian Live and Tails Images. Corrected broken Debian homepage link and Lubuntu, Xubuntu download links.</p>
+<p>05/06/17 Version 2.0.4.9: Fixed recently broken Debian Live entry. Added option to set Windows to Go VHD file size.</p>
+<p>05/01/17 Version 2.0.4.8: Update to support Neon, Finnix, Devuan, Vinari OS, and Ubuntu Budgie. Added compatibility test file.</p>
+<p>04/19/17 Version 2.0.4.7: Update to support newer Manjaro and Archlinux. Address potential missing Config file errors when subsequently adding distributions.</p>
+<p>03/27/17 Version 2.0.4.6: Quick fix to correct the double Distro list during step 2.</p>
+<p>03/22/17 Version 2.0.4.5: Add ability to create larger than 4GB casper-rw persistent file if using NTFS format for Ubuntu and Linux Mint &#8211; (creates 4th partition table). Added casper-rw creation progress banner.</p>
+<p>03/13/17 Version 2.0.4.4: Add filesystem type to drivelist. Include message box to notify of NTFS filesystem requirement for Windows to Go option.</p>
+<p>03/03/17 Version 2.0.4.3: Add Windows to Go VHD option. Added more info for syslinux warning. Added Diskpart NTFS format option.</p>
+<p>02/22/17 Version 2.0.4.2: Temporarily limit format option to removable media only.</p>
+<p>02/16/17 Version 2.0.4.1: Quick fix to address broken format option.</p>
+<p>02/12/17 Version 2.0.4.0: Temporarily add back Single Windows Vista/7/8/10 Installer option (which extracts all files from ISO to root). Add lock and dismount capability.</p>
+<p>02/02/17 Version 2.0.3.9: Update to support OSFClone, newer WifiSlax, and NetRunner. Correct AntiX entry to use bdir=. Update to replace empty spaces in iso file with dashes. Correction to GRUB Partition 4 option.</p>
+<p>01/30/17 Version 2.0.3.8: Quick Fix for singular and multiple Win PE builds.</p>
+<p>01/28/17 Version 2.0.3.7: Update to support various Win PE builds. Modified distribution removal process. Corrected font size for Show All ISOs option.</p>
+<p>01/14/17 Version 2.0.3.6: Update to support multiple Windows Vista/7/8/10 Installers. -wimboot option stores the extracted Multi Windows Installers in their own directory. -bootmgr option moves only bootmgr and bcd to root of drive. (note: -bootmgr option does require a Windows Vista or later host to run bcdedit).</p>
+<p>12/27/16 Version 2.0.3.5: Fix to replace empty spaces in Distro filename with dashes. Add Windows PE (WIM) boot options (unfinished). Implement wimboot capabilities, Switch to newer Grub4Dos. Update labels.</p>
+<p>12/22/16 Version 2.0.3.4: Quick fix to correct the double Distro list during step 2.</p>
+<p>12/19/16 Version 2.0.3.3: Update Get Drives function to ignore system and network drives on subsequent YUMI installs. Corrected UI vesamenu paths.</p>
+<p>12/12/16 Version 2.0.3.2: Update to support Solus. Reinclude show all drives option. Disable FSCTL lock, dismount, and unlock volume features until a better solution is found.</p>
+<p>12/10/16 Version 2.0.3.1: Update Get Drives function to ignore system and network drives. Add filesystem and drive type to drive list. Add lock, dismount, and unlock features.</p>
+<p>12/02/16 Version 2.0.3.0: Update to support ChaletOS and Bunsenlabs. Support newer Fedora Workstation Live and Zorin Core ISOs. Fix CentOS Link. Create a trk3 directory at the root of USB before copying files (necessary for Windows XP copyfiles).</p>
+<p>10/03/16 Version 2.0.2.9: Switch back to 7-Zip 9.20.</p>
+<p>09/14/16 Version 2.0.2.8: Fix menu entries for boot repair, and elementary OS. Upgrade to 7-Zip 16.02.</p>
+<p>08/18/16 Version 2.0.2.7: Add support for Arch Bang, Skywave Linux, and Cyborg Linux.</p>
+<p>07/07/16 Version 2.0.2.6: Add support for Android-x86. Fix broken Manjaro entry. Update credits and sources.</p>
+<p>07/01/16 Version 2.0.2.5: Fix Eset, avira, and Dr.Web menu entries which became broken in build 2.0.2.4.</p>
+<p>06/28/16 Version 2.0.2.4: Update to support Cub Linux. Fix broken WifiSlax entry. Use alternate method for old Ubuntu derivatives with conflicting syslinux gfxboot.</p>
+<p>06/01/16 Version 2.0.2.3: Fixed bug: calculating remaining space on USB drive. Switch back to using vesamenu for sub-menu config files. Remove unused Prompt 0 from config. Re-enable Ubuntu gfxboot.</p>
+<p>04/14/16 Version 2.0.2.2: Update to support Linux Kid X, Linux Lite, Subgraph OS, and Calculate Linux Desktop. Re-enable entry for Offline NT Password and Registry Editor.</p>
+<p>04/06/16 Version 2.0.2.1: Update to support WattOS, update SLAX option, update links, disable feature to close all open explorer windows when format option is selected. Update Fat32Format.</p>
+<p>12/28/15 Version 2.0.2.0: Add GRUB (partition 4) option. Update to support Xioapan, Windows 10, Bitdefender Rescue CD options. Update DBan option.</p>
+<p>10/28/15 Version 2.0.1.9: Remove distributions that are no longer being developed. Fix broken links.</p>
+<p>06/17/15 Version 2.0.1.8: Update to support newer GRML 2014-11, CentOS 7, Clonezilla 2.4.2-10, and Ultimate Edition 4.</p>
+<p>05/14/15 Version 2.0.1.7: Update links.</p>
+<p>03/18/15 Version 2.0.1.6: Add support for Tahrpup 6.0, Debian Live 7.8.0, and OpenSuSe 3.2.</p>
+<p>01/20/15 Version 2.0.1.5: Fix broken 64bit option for Parted Magic entry.</p>
+<p>01/15/15 Version 2.0.1.4: Update to support 2015_01_13 Parted Magic.</p>
+<p>01/13/15 Version 2.0.1.3: Remove Acronis True Image entry (Use Try Unlisted ISO GRUB for Acronis). Updated links.</p>
+<p>10/30/14 Version 2.0.1.2: Enable checkbox option to forcefully Show All ISO Files.</p>
+<p>10/29/14 Version 2.0.1.1: Update to support Linpus Lite, minyMac, and ESET SysRescue Live. Fix AntiX boot issue.</p>
+<p>09/19/14 Version 2.0.1.0: Switch to use Syslinux 6.0.3 to address ERR: Couldn&#039;t read the first sector issues.</p>
+<p>09/11/14 Version 2.0.0.9: Add Dr.Web LiveDisk. Fix broken System Rescue CD, and HDT option. Update Ubuntu download options.</p>
+<p>08/14/14 Version 2.0.0.8: Fix Windows Vista/7/8 and Hiren&#039;s options.</p>
+<p>07/31/14 Version 2.0.0.7: Switch to use Syslinux version 6.02.</p>
+<p>07/29/14 Version 2.0.0.6: Update to support Peach OSI.</p>
+<p>05/29/14 Version 2.0.0.5: Update Ubuntu, CentOS, and Debian Download Links. Remove Backtrack &#8211; superseded by Kali.</p>
+<p>04/29/14 Version 2.0.0.4: Update to support CAINE and Puppy Arcade.</p>
+<p>04/17/14 Version 2.0.0.3: Update to support Tails 0.23 and Rescatux 0.30.2 (must manually extract and use Rescatux.iso from the ISO). Correct OpenSuse links.</p>
+<p>03/18/14 Version 2.0.0.2: Update to support newer version of Offline Windows Password &amp; Registry Editor, LuninuX OS, Pear Linux, and Konboot 2.3 Pro.</p>
+<p>02/20/14 Version 2.0.0.1: Fixed Linux Mint 16 Live Installer Crash!</p>
+<p>01/30/14 Version 2.0.0.0: Added support for JustBrowsing, Mythbuntu, Bugtraq II, and older pmagic_2013_05_01.iso.</p>
+<p>01/10/14 Version 1.9.9.9B: Added support for Fedora 20, LXLE Desktop. Fixed source compilation bug.</p>
+<p>12/11/13 Version 1.9.9.9: Delete redundant Ophcrack folders. Re-enabled Dr.Web, Trinity, and RIP Linux. Support Elementary 32 bit.</p>
+<p>12/09/13 Version 1.9.9.8B: Added Acronis True Image, Sparky Linux, and SolydX</p>
+<p>12/06/13 Version 1.9.9.8: Add option for Paid version of Kon-Boot. Added Manjaro Linux.</p>
+<p>12/04/13 Version 1.9.9.7B: Correct ISO Name for Desinfect. Correct OpenSUSE ISO copy failed when using Windows XP. Add support for Rescatux ISO (can&#039;t use sg2d version).</p>
+<p>11/24/13 Version 1.9.9.7: Modify chain.c32 to address Insane Primary (MBR) partition error. Correct Kaspersky Rescue Disk (Antivirus Scanner) syslinux directory copying issue on Win XP.</p>
+<p>11/22/13 Version 1.9.9.6B: Added OpenSUSE. Corrected Desinfec&#039;t misspelling.</p>
+<p>11/20/13 Version 1.9.9.6: Add Desinfec&#039;t 2013 (German Antivirus). Fix broken older Parted Magic menu entries.</p>
+<p>11/13/13 Version 1.9.9.5B: Add WifiSlax. Thanks to Geminis Demon for helping finish the entry!</p>
+<p>11/12/13 Version 1.9.9.5: Added provision to ensure menu.32 exists. Fixed Falcon4 and Hiren menu creation.</p>
+<p>11/11/13 Version 1.9.9.4: Added Persistent Option for Ubuntu and some Derivatives. Fix Kon-Boot free entry. Switch to AutoDetect Size of ISO.</p>
+<p>11/08/13 Version 1.9.9.3: Add Liberte Linux. Fixed a menu scrolling bug (vesamenu.c32 incompatible with boot.msg?) that occurred with distros like Puppy and KNOPPIX</p>
+<p>11/07/13 Version 1.9.9.2: Add support for TAILS, and Ultimate Boot CD.</p>
+<p>11/05/13 Version 1.9.9.1: Quick fix to support older versions of Knoppix.</p>
+<p>11/04/13 Version 1.9.9.0: Beta release of YUMI version 2.</p>
+</div>
+<div class="box" id="HowTo">
+<h2>How to Create a MultiBoot USB Flash Drive (Windows)</h2>
+<ol>
+<li>Run<span style="color: #ff0000;">*</span> <strong>YUMI-2.0.7.4.exe</strong> following the onscreen instructions</li>
+<li>Run the tool again to Add More ISOs/Distributions to your Drive</li>
+<li>Restart your PC setting it to boot from the USB device</li>
+<li>Select a distribution to Boot from the Menu and enjoy!</li>
+</ol>
+<p>That&#039;s all there is to it. You should now be booting your favorite distributions from your custom Multi-Boot USB device!</p>
+<hr />
+<h2>Creating a YUMI MultiBoot USB Flash Drive (Linux)</h2>
+<p>The following instructions were performed from an Ubuntu 16.04 host environment.</p>
+<p>NOTE: YUMI persistence option is currently broken when using YUMI-2.0.7.4.exe within WINE. Don&#039;t choose persistence and set the slider or the process will freeze while trying to build the persistent file and you will be forced to close YUMI.</p>
+<p><strong>I. Format your USB Flash Drive to use a Single Partition</strong>:</p>
+<ol>
+<li>Open a terminal and type <code>sudo su</code></li>
+<li>Type <code>fdisk -l</code> (and note which device is your USB Drive)</li>
+<li>Type <code>fdisk /dev/sd<span style="color: #ff0000;">x</span></code> (replacing <strong><span style="color: #ff0000;">x</span></strong> with your actual usb device)</li>
+<li>Type <code>d</code> (to delete the existing partition)</li>
+<li>Type <code>n</code> (to create a new partition)</li>
+<li>Type <code>p</code> (for primary partition)</li>
+<li>Type <code>1</code> (to create the first partition)</li>
+<li><code>Press Enter</code> (to use the first cylinder)</li>
+<li><code>Press Enter</code> again (to use the default value as the last cylinder)</li>
+<li>Type <code>a</code> (for active)</li>
+<li>Type <code>1</code> (to mark the first partition active &#034;bootable&#034;)</li>
+<li>Type <code>t</code> (for partition type)</li>
+<li>Type <code>c</code> (to use fat32 partition)</li>
+<li>Type <code>w</code> (to write the changes and close fdisk)</li>
+</ol>
+<p><strong>II. Create a Fat32 Filesystem on the USB Flash Drive</strong>:</p>
+<ol>
+<li>Type <code>umount /dev/sd<span style="color: #ff0000;">x</span>1</code> (to unmount the mounted partition)</li>
+<li>Type <code>mkfs.vfat -F 32 -n MULTIBOOT /dev/sd<span style="color: #ff0000;">x</span>1</code> (to format the partition as fat32)</li>
+<li>Remove and reinsert your USB flash drive, or remount it</li>
+</ol>
+<p><strong>III. Install WINE:</strong></p>
+<ol>
+<li>To install WINE from within an Ubuntu operating environment, open a terminal and type <strong>sudo apt install wine</strong> and press enter. Once WINE is installed, launch YUMI as you normally would by simply clicking the YUMI-2.0.7.4.exe</li>
+</ol>
+<hr />
+<p><span style="color: #800000;"><strong>How YUMI Works</strong></span>: YUMI (<span style="text-decoration: underline;">Y</span>our <span style="text-decoration: underline;">U</span>niversal <span style="text-decoration: underline;">M</span>ultiboot <span style="text-decoration: underline;">I</span>nstaller) enables each user to create their own custom Multiboot UFD containing only the distributions they want, in the order by which they are installed. A new distribution can be added to the UFD each time the tool is run.</p>
+<p>If you run YUMI from the same location you store ISO files, they should be auto-detected (*See Known Issues Below), eliminating the need to browse for each ISO.</p>
+<p><span style="color: #800000;"><strong>Other Notes</strong></span>: If MultibootISOs was previously used, you must reformat the drive and start over. YUMI uses Syslinux directly, and chainloads to grub only if necessary, so it is not compatible with the older Multiboot ISO tool. Although I do plan to add back most of the capabilities of MultibootISOs as time permits.</p>
+<p>Not all Unlisted ISO&#039;s can be booted (thus adding Unlisted ISOs is an UNSUPPORTED option).</p>
+</div>
+<div class="box" id="Supported-Distros">
+<p><strong>YUMI can Create a Bootable UFD of the following distros/tools</strong></p>
+<p>&#8212; Debian Live 32/64 Bit &#8212;</p>
+<ul>
+<li>Debian Live</li>
+</ul>
+<p>&#8212; Fedora 32/64 Bit &#8212;</p>
+<ul>
+<li>Fedora</li>
+</ul>
+<p>&#8212; Linux Mint 32/64 Bit &#8212;</p>
+<ul>
+<li>Linux Mint</li>
+</ul>
+<p>&#8212; OpenSUSE 32/64 Bit &#8212;</p>
+<ul>
+<li>OpenSUSE 32bit</li>
+<li>OpenSUSE 64bit</li>
+</ul>
+<p>&#8212; Puppy Linux 32/64 Bit &#8212;</p>
+<ul>
+<li>DPup Exprimo</li>
+<li>Fatdog64</li>
+<li>Lucid Puppy Linux</li>
+<li>Precise Puppy Linux</li>
+<li>Racy Puppy Linux</li>
+<li>Slacko Puppy</li>
+<li>Wary Puppy Linux</li>
+</ul>
+<p>&#8212; Ubuntu 32/64 Bit &#8212;</p>
+<ul>
+<li>Ubuntu</li>
+<li>Ubuntu Gnome</li>
+<li>Ubuntu Server Installer</li>
+<li>Ubuntu Secure Remix</li>
+<li>Ubuntu Studio</li>
+<li>Edubuntu</li>
+<li>Kubuntu</li>
+<li>Lubuntu</li>
+<li>Xubuntu</li>
+<li>Backbox</li>
+</ul>
+<p>&#8212; Other Distros Alphabetical &#8212;</p>
+<ul>
+<li>Android-x86</li>
+<li>Antergos</li>
+<li>AntiX</li>
+<li>Archlinux</li>
+<li>Bodhi</li>
+<li>Bunsenlabs/Crunchbang</li>
+<li>CAELinux (Computer Aided Engineering)</li>
+<li>CentOS Live</li>
+<li>ChaletOS</li>
+<li>Damn Small Linux (DSL)</li>
+<li>Fuduntu</li>
+<li>gpxe (Net Bootable Distros)</li>
+<li>KNOPPIX</li>
+<li>KXStudio</li>
+<li>Mandriva</li>
+<li>Netrunner</li>
+<li>OSGeo Live</li>
+<li>PCLinuxOS</li>
+<li>Peppermint</li>
+<li>Peach OSI Linux</li>
+<li>Pear Linux</li>
+<li>Pinguy OS</li>
+<li>Porteus</li>
+<li>PureOS</li>
+<li>SalineOS</li>
+<li>Scientific Linux CERN</li>
+<li>Semplice Linux</li>
+<li>SLAX (Tiny Slackware Based Distro)</li>
+<li>Slitaz (Another Tiny Distro)</li>
+<li>Sparky Linux</li>
+<li>SolydX</li>
+<li>Sugar on a Stick</li>
+<li>System Rescue CD</li>
+<li>Tails (Anonymous Browsing)</li>
+<li>Liberte (Anonymous Browsing)</li>
+<li>Terralinux</li>
+<li>TinyCore (A Tiny Linux Distribution)</li>
+<li>Ultimate Edition 3</li>
+<li>XBMCbuntu</li>
+<li>Zorin OS Core</li>
+</ul>
+<p>&#8212;&#8212;&#8212;&#8212; NetBook Distributions &#8212;&#8212;&#8212;&#8212;</p>
+<ul>
+<li>EasyPeasy (NetBook Distro)</li>
+<li>Jolicloud (NetBook Distro)</li>
+<li>Ubuntu Netbook Remix</li>
+<li>xPUD (Netbook Distro)</li>
+</ul>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212; Antivirus Tools &#8212;&#8212;&#8212;&#8212;&#8212;</p>
+<ul>
+<li>Acronis Antimalware CD</li>
+<li>AOSS (Malware Scanner) system\stage1</li>
+<li>AVG Rescue CD (Antivirus Scanner)</li>
+<li>AVIRA AntiVir Rescue CD (Virus Scanner) ; does install to root of drive</li>
+<li>BROKEN! <del datetime="2014-07-31T22:43:36+00:00">Bitdefender Rescue Disk (Antivirus Scanner)</del></li>
+<li>Comodo Rescue Disk (Antivirus Scanner)</li>
+<li>Dr.Web Live CD ; does install to root</li>
+<li>F-Secure Rescue CD</li>
+<li>GDATA Rescue CD</li>
+<li>Kaspersky Rescue Disk (Antivirus Scanner)</li>
+<li>Panda SafeCD</li>
+<li>Windows Defender Offline</li>
+</ul>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; System Tools &#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<ul>
+<li>Acronis True Image</li>
+<li>BackBox (Penetration Testing)</li>
+<li>BackTrack5 (Penetration Testing)</li>
+<li>Boot Repair Disk</li>
+<li>Clonezilla (Backup + Clone Tool)</li>
+<li>DBAN (Hard Drive Nuker)</li>
+<li>Deft (Forensics)</li>
+<li>DRBL (Diskless Remote Boot in Linux)</li>
+<li>EASEUS Disk Copy (Disk Cloning Tool)</li>
+<li>FreeDOS (Balder img)</li>
+<li>GParted (Partition Tools)</li>
+<li>GRML (system rescue)</li>
+<li>HDT (Hardware Detection Tool)</li>
+<li>Kali (Penetration Testing)</li>
+<li>Memtest86+ (Memory Testing Tool)</li>
+<li>Matriux (Penetration Testing)</li>
+<li>Offline NT Password &amp; Registry Editor</li>
+<li>Ophcrack (no tables)</li>
+<li>Ophcrack XP (Password Finder)</li>
+<li>Ophcrack Vista/7 (Password Finder)</li>
+<li>Parted Magic (Partition Tools)</li>
+<li>PING (Partimg Is Not Ghost)</li>
+<li>Partition Wizard (Partition Tools)</li>
+<li>Rescatux</li>
+<li>Redo Backup And Recovery (Recovery Tools)</li>
+<li>Rip Linux (Recovery Distro)</li>
+<li>Trinity Rescue Kit ; does install to root of drive</li>
+<li>Ultimate Boot CD (Diagnostics Tools)</li>
+<li>Web Converger (Web Kiosk)</li>
+<li>WifiSLax</li>
+</ul>
+<ul>
+<li>&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; Other OS/Tools &#8212;&#8212;&#8212;&#8212;&#8212;-</li>
+</ul>
+<ul>
+<li>Linux Live Tools for OCZ</li>
+<li>Hiren&#039;s Boot CD ; does install to root of drive</li>
+<li>Falcon 4 Boot CD ; does install to root of drive</li>
+<li>Kon-Boot Floppy Image</li>
+<li>Windows Vista/7/8/10 Installer</li>
+<li>Windows XP Installer</li>
+</ul>
+<p>&#8212;&#8212;&#8212;&#8212;&#8212;&#8211; Bootable ISOs &#8212;&#8212;&#8212;&#8212;&#8212;-</p>
+<ul>
+<li>Try an Unlisted ISO (SYSLINUX)</li>
+<li>Try an Unlisted ISO (GRUB)</li>
+<li>Try an Unlisted ISO (GRUB Run from RAM)</li>
+</ul>
+</div>
+<div class="box" id="FAQ">
+<p><strong>YUMI Troubleshooting, Known Issues, Bugs</strong>:</p>
+<p><strong>NOW FIXED in the latest YUMI revision.</strong> &#8211; casper-rw Persistence is not currently working for Ubuntu 20.04 and variants due to an upstream filename requirement change. To fix the persistent feature for Ubuntu 20.04, simply rename the &#034;casper-rw&#034; file to &#034;writable&#034; without the quotes. This file can be found on your YUMI USB drive in folder I.E. /Multiboot/Ubuntu-20.04-desktop-amd64.</p>
+<p>The Persistence feature is currently broken with Newer Debian based distributions due to significant changes upstream. Debian now requires the persistent block file and label to be named persistence instead of live-rw, and it must hold a persistence.conf file containing / Union. I am hoping to make the necessary changes and provide a fix soon.</p>
+<p>If you encounter a message stating</p>
+<blockquote><p><span style="color: #ff0000;">An error (1) occurred while executing syslinux. Your USB drive won&#039;t be bootable.</span></p>
+<p><noscript><img class="alignnone size-full wp-image-7141" src="https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux.png" alt="An error (1) occurred executing syslinux" width="347" height="160" srcset="https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux.png 347w, https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux-100x46.png 100w, https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux-300x138.png 300w" sizes="(max-width: 347px) 100vw, 347px" /></noscript><img class="lazyload alignnone size-full wp-image-7141" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20347%20160%22%3E%3C/svg%3E' data-src="https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux.png" alt="An error (1) occurred executing syslinux" width="347" height="160" data-srcset="https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux.png 347w, https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux-100x46.png 100w, https://www.pendrivelinux.com/wp-content/uploads/error-occurred-executing-syslinux-300x138.png 300w" data-sizes="(max-width: 347px) 100vw, 347px" /></p></blockquote>
+<p>Make sure your USB drive is using a Fat32 or NTFS partition with an MBR (Master Boot Record). An exFAT formatted Partition will not work. GPT (GUID Partition Table) Fat32 or NTFS Partitions are also not supported.</p>
+<p>If you encounter a message stating</p>
+<blockquote><p><span style="color: #ff0000;">Insane primary (MBR) partition. Can’t find myself on the drive I booted from</span></p></blockquote>
+<p>First, replace your chain.c32 file located at multiboot/chain.c32 with (you&#039;ll need to unzip the file) -&gt; <a title="Insane MBR fix - chain.c32" href="/downloads/YUMI/chain.zip" target="_blank" rel="noopener noreferrer">This zipped chain.c32 File</a></p>
+<p>If replacing the chain.c32 file does not fix the problem, your USB drive may be improperly formatted, contains more than one partition or MBR, or your BIOS is not properly detecting the USB drive as USB-HDD, and/or its firmware needs to be updated. You can try <a title="Restoring a USB Drive" href="/restoring-your-usb-key-partition/" target="_blank" rel="noopener noreferrer">these methods to Format and Restore your USB Drive</a></p>
+<p><span style="color: #800000;"><strong>Windows to Go/Installers &#8211; Options Explained<br />
+</strong></span></p>
+<p>The Windows to Go option creates a VHD file that is 20GB in size. As such, it requires the drive to be formatted NTFS. Fat32 cannot support a file more than 4GB in size. Many flash drives you might find at local department stores won&#039;t be fast enough. You&#039;ll need a Very Fast Flash Drive. When Windows boots from the USB for the first time, it&#039;ll go through the setup process and then reboot. You&#039;ll need to boot using your Windows to Go menu option a second time to finalize the setup process and finally boot into your full Portable Windows.</p>
+<p>The Single Windows Installer/PE options are most likely to work for both stock and modified ISO files. When using it, you are limited to storing one Windows Installer per USB drive (I.E. one Win XP and one Win Vista 7 or 10). The Multiple Windows Installer/PE options allow for storing more than one stock Windows Installer per drive. Generally, only unmodified Windows ISO files will work with this option.</p>
+<p><strong>-wimboot</strong> option stores the extracted Multi Windows Installers in their own directory. <strong>-bootmgr</strong> option moves the bootmgr and bcd files to root of drive. (note: -bootmgr option does require a Windows Vista or later host to run bcdedit).</p>
+<p>Traditional YUMI is not natively UEFI capable. However, it is possible to boot and run your Windows Installers from UEFI. To switch between added Windows versions, navigate to the multiboot/win-directory (replacing win-directory with the Windows version you want to boot) on your USB. Once there, move the bootmgr, bootmgr.efi, and entire boot folder to the root of your USB drive. Then reboot, booting your computer from the UEFI compatible USB. If all went well, it should boot straight into your chosen Windows Installer.</p>
+<p><span style="color: #800000;"><strong>Try an Unlisted ISO &#8211; Options Explained</strong></span></p>
+<ol>
+<li><strong>Try Unlisted ISO (Grub Partition 4)</strong> &#8211; This boot option attempts to boot the ISO file using Grub. Additionally it adds a 4th partition table to the USB device and uses this as a placeholder for the ISO.  This option has been shown to successfully boot almost all Linux based distributions.</li>
+<li><strong>Try Unlisted ISO (Grub)</strong> &#8211; Same as boot option 1, but attempts to boot the ISO without using a 4th partition as a placeholder for the ISO.</li>
+<li><strong>Try Unlisted ISO (Grub From RAM)</strong> &#8211; Same as boot option 2, but attempts to store the ISO in system memory and boot it from there. Useful for cases where the ISO is small, and you&#039;d like to boot the OS and then move the USB to different machines and subsequently boot the OS from them as well.</li>
+<li><strong>Try Unlisted ISO (via Syslinux)</strong> &#8211; The original default YUMI supported boot option. Syslinux works to boot many distributions, but not all.</li>
+</ol>
+<p><span style="color: #800000;"><strong>Multiboot folder and volume name.</strong></span></p>
+<p>YUMI tries to store most added distributions within the multiboot folder. This is also the root directory set for syslinux. In some cases, YUMI also expects the Volume Label of your USB drive to be MULTIBOOT in order for OpenSUSE, CentOS and several other distributions to boot. YUMI attempts to automatically create this Volume Label, however it can sometimes fail. Please ensure that the Volume Label of your USB remains MULTIBOOT if you expect your distributions to boot.</p>
+<p>When booting linux distributions such as Ubuntu from some laptops such as the Lenovo Yoga with a touchscreen, the acpi=off boot parameter might be necessary in order to successfully boot.</p>
+<p><span style="color: #800000;"><strong>My PC wont Boot from my Flash Drive, but BIOS supports USB boot!</strong></span></p>
+<p>Some Flash Drives ship formatted (without a partition), and YUMI requires the drive to contain a partition with a MBR (Master Boot Record). To ensure compatibility, you can use YUMI to format your device as NTFS or Fat32.</p>
+<p><span style="color: #800000;"><strong>How to force a rebuild of the Syslinux MBR:</strong></span></p>
+<p>This is useful if your YUMI prepared USB drive is somehow no longer bootable.</p>
+<p><strong>For Newest version of YUMI</strong>:<br />
+From the multiboot folder on your flash drive, delete the hidden file ldlinux.sys and then rename the libcom32.c32 file to _libcom32.c32. Then use YUMI to install any menu item. YUMI will notice that the file is missing and will attempt to reinstall syslinux and repair the master boot record. Once finished, rename _libcom32.c32 back to libcom32.c32.</p>
+<p><strong>For Older versions of YUMI</strong>:<br />
+Delete the hidden ldlinux.sys file from the multiboot folder, and use YUMI to install any menu item. YUMI will notice that this file is missing and will attempt to repair it.</p>
+<p><strong><span style="color: #800000;">Other Known Issues</span></strong>:</p>
+<p>TAILS &#8211; If your USB is detected as a &#034;fixed&#034; hard drive and not a &#034;removable&#034; disk, (a few Sandisk drives have the removable bit flipped this way), you&#039;ll need to remove occurrences of the boot parameter &#034;live-media=removable&#034; from the Live64.cfg file found at &#034;\multiboot\tails-amd64-3.3\EFI\BOOT\&#034; or TAILS will fail to find the live filesystem.</p>
+<p>Flacon 4, Hiren&#039;s Boot CD, Trinity Rescue Kit, Backtrack, Avira Antivir, and Dr.Web Live CD files are stored outside of the multiboot folder. Most other distribution files remain contained within the multiboot folder. I am open to a simple working solution!</p>
+<p>YUMI supports <em>Windows XP Install from USB</em> via ISO. In order for the Windows XP installation to succeed, you must perform the following steps;<br />
+1.) To begin an install, select (Stage 1)<br />
+2.) Upon first reboot, you must select (Stage 2)<br />
+3.) Finally, after (Stage 2) is complete &#8211; upon the second reboot, select (Stage 3) to boot the drive where you installed Windows XP. If this option fails, simply remove the USB and reboot!</p>
+<p>* YUMI does support NTFS, however not all distributions will boot from an NTFS formatted device. NTFS is required for <strong>Windows to Go</strong> and distributions containing files over 4GB.</p>
+<p><span style="color: #800000;"><strong>Troubleshooting Boot Errors</strong></span>:</p>
+<p>While trying to run an ISO from USB, If you get a Boot error saying:</p>
+<blockquote><p><strong>Error 60</strong>: <em><strong>File for drive emulation must be in one contiguous disk area</strong></em></p></blockquote>
+<p>You&#039;ll need to defragment your ISO using one of the following tools:</p>
+<p><a title="Command Line Defrag Tool" href="http://technet.microsoft.com/en-us/sysinternals/bb897428.aspx" target="_blank" rel="noopener noreferrer nofollow" class="external">contig</a> &#8211; Command line tool to defragment ISO files.</p>
+<p><a title="GUI ISO Defrag Tool" href="http://wincontig.mdtzone.it/en/" target="_blank" rel="noopener noreferrer nofollow" class="external">wincontig</a> &#8211; GUI tool to defragment ISO files.</p>
+<p><span style="color: #800000;"><strong>Additional Notes</strong></span>:<br />
+Edit non-booting menu entries for the ISO&#039;s you have added via the &#034;Try and Unlisted ISO (GRUB)&#034; options, by editing the corresponding entry in \multiboot\menu\menu.lst</p>
+<p>If you don&#039;t have a floppy drive and get <strong>fd0 errors</strong> while booting, simply add <strong>floppy.allowed_drive_mask=0</strong> to the append line for the troubled entry. Although the best fix is to simply disable floppy in BIOS.</p>
+<p><span style="color: #339966;"><strong>Persistently Saving Changes</strong></span>: YUMI currently enables the casper-rw persistence feature for some (but not all) Ubuntu based distributions. Yes, you can have multiple persistent Ubuntu based distributions, as each distro utilizes its own casper-rw file. * Persistence will NOT work on NTFS formatted USB drives. Some Distributions also will not even boot via NTFS!</p>
+<p><span style="color: #800000;"><strong>Ophcrack Tables</strong></span>: To load Ophcrack tables when booted in this fashion, the tables folder needs to exist at the root directory of the USB device; (example F:\tables\vista_free). <a title="Get Ophcrack Tables" href="http://ophcrack.sourceforge.net/tables.php" target="_blank" rel="noopener noreferrer nofollow" class="external">Get Ophcrack Tables</a> from the Official Ophcrack site and unzip to your USB. You can have both XP and Vista/7 tables working together.</p>
+<p><span style="color: #800000;"><strong>YUMI on Linux</strong></span>: <del datetime="2018-11-29T18:34:04+00:00">You can run YUMI on a Linux Host via WINE</del>. &lt;&#8211; currently untested, and possibly broken.</p>
+</div>
+</div>
+</div>
+</p>					
+							
+
+<p><small>YUMI &#8211; Multiboot USB Creator published under <a href="https://www.pendrivelinux.com/category/usb-creator/" rel="category tag">Bootable USB Creator Software</a>&nbsp;
+<!-- Generated by Simple Tags 2.5.7 - http://wordpress.org/extend/plugins/simple-tags -->
+	<div class="st-post-tags">
+	<a href="https://www.pendrivelinux.com/tag/bootable-software/" title="bootable software" rel="tag">bootable software</a>, <a href="https://www.pendrivelinux.com/tag/bootable-usb/" title="bootable usb" rel="tag">bootable usb</a>, <a href="https://www.pendrivelinux.com/tag/live-linux-usb/" title="live linux usb" rel="tag">live linux usb</a>, <a href="https://www.pendrivelinux.com/tag/live-linux-usb-creator/" title="Live Linux USB Creator" rel="tag">Live Linux USB Creator</a>, <a href="https://www.pendrivelinux.com/tag/live-usb/" title="live usb" rel="tag">live usb</a>, <a href="https://www.pendrivelinux.com/tag/multiboot/" title="Multiboot" rel="tag">Multiboot</a>, <a href="https://www.pendrivelinux.com/tag/multiboot-iso/" title="Multiboot ISO" rel="tag">Multiboot ISO</a>, <a href="https://www.pendrivelinux.com/tag/multiboot-live-usb/" title="Multiboot Live USB" rel="tag">Multiboot Live USB</a>, <a href="https://www.pendrivelinux.com/tag/multiboot-usb/" title="Multiboot USB" rel="tag">Multiboot USB</a>, <a href="https://www.pendrivelinux.com/tag/multiboot-usb-creator/" title="Multiboot USB Creator" rel="tag">Multiboot USB Creator</a>, <a href="https://www.pendrivelinux.com/tag/multisystem-usb/" title="Multisystem USB" rel="tag">Multisystem USB</a>, <a href="https://www.pendrivelinux.com/tag/universal-usb-installer/" title="Universal USB Installer" rel="tag">Universal USB Installer</a><br /></div>
+
+</small></p>
+				
+<noscript><img src="https://www.pendrivelinux.com/images/mini-disclaimer.png" alt="Disclaimer" /></noscript><img class="lazyload" src='data:image/svg+xml,%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20210%20140%22%3E%3C/svg%3E' data-src="https://www.pendrivelinux.com/images/mini-disclaimer.png" alt="Disclaimer" />			
+					
+</div>
+</div>
+	</div>
+</div>
+
+<div id="sidebar">
+<ul>
+<li id="execphp-4" class="widget widget_execphp"><h2 class="widgettitle">Portable Linux Categories</h2>
+			<div class="execphpwidget"><ul>	<li class="cat-item cat-item-16"><a href="https://www.pendrivelinux.com/category/usb-installs-from-linux/" title="How to install Linux to a USB flash memory stick from a running Live CD">Flash drive installs using Live CD</a>
+</li>
+	<li class="cat-item cat-item-11"><a href="https://www.pendrivelinux.com/category/new-usb-linux-tutorials/" title="How to Install Linux to a USB flash pen drive from Windows">Flash drive installs using Windows</a>
+</li>
+	<li class="cat-item cat-item-13"><a href="https://www.pendrivelinux.com/category/virtual-machine/" title="Run Live Linux directly from Windows using a virtual machine emulator">USB Virtual Machine Emulation</a>
+</li>
+	<li class="cat-item cat-item-18"><a href="https://www.pendrivelinux.com/category/using-linux/" title="Linux Configuration and setup tutorials for general use">Using and Configuring Linux</a>
+</li>
+</ul></div>
+		</li>
+<li id="execphp-8" class="widget widget_execphp"><h2 class="widgettitle">Pendrive Linux Posts</h2>
+			<div class="execphpwidget"><ul>	<li><a href='https://www.pendrivelinux.com/make-a-usb-boot-cd-for-ubuntu-11-10/'>Make a USB Boot CD for Ubuntu 11.10</a></li>
+	<li><a href='https://www.pendrivelinux.com/boot-dos-from-usb/'>Boot DOS from USB &#8211; RUFUS</a></li>
+	<li><a href='https://www.pendrivelinux.com/liveusb-install-live-usb-creator/'>LiveUSB Install &#8211; Live USB Creator</a></li>
+	<li><a href='https://www.pendrivelinux.com/xboot-multiboot-iso-usb-creator/'>XBOOT &#8211; Multiboot ISO USB Creator (Windows)</a></li>
+	<li><a href='https://www.pendrivelinux.com/yumi-multiboot-usb-creator/' aria-current="page">YUMI &#8211; Multiboot USB Creator</a></li>
+	<li><a href='https://www.pendrivelinux.com/sardu-multiboot-usb-creator-windows/'>SARDU &#8211; Multiboot USB Creator (Windows)</a></li>
+	<li><a href='https://www.pendrivelinux.com/boot-multiple-iso-from-usb-via-grub2-using-linux/'>Boot Multiple ISO from USB via Grub2 using Linux</a></li>
+	<li><a href='https://www.pendrivelinux.com/creating-a-kubuntu-live-usb-from-cd/'>Creating a Kubuntu Live USB from CD</a></li>
+	<li><a href='https://www.pendrivelinux.com/creating-an-xubuntu-live-usb-from-cd/'>Creating an Xubuntu Live USB from CD</a></li>
+	<li><a href='https://www.pendrivelinux.com/creating-an-ubuntu-live-usb-from-cd/'>Creating an Ubuntu Live USB from CD</a></li>
+	<li><a href='https://www.pendrivelinux.com/using-unetbootin-to-create-a-linux-usb-from-linux/'>Using UNetbootin to create a Linux USB from Linux</a></li>
+	<li><a href='https://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/'>MultiSystem &#8211; Create a MultiBoot USB from Linux</a></li>
+	<li><a href='https://www.pendrivelinux.com/put-mandriva-2010-on-a-usb-flash-drive-windows/'>Put Mandriva 2010 on a USB Flash Drive (Windows)</a></li>
+	<li><a href='https://www.pendrivelinux.com/put-bitdefender-rescue-cd-on-a-usb-flash-drive/'>Put Bitdefender Rescue CD on a USB Flash Drive</a></li>
+	<li><a href='https://www.pendrivelinux.com/put-lucid-puppy-on-usb-flash-drive-from-windows/'>Put Lucid Puppy on USB Flash Drive from Windows</a></li>
+</ul></div>
+		</li>
+<li id="custom_html-2" class="widget_text widget widget_custom_html"><div class="textwidget custom-html-widget"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 160x600 PDL -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-0932618358223805"
+     data-ad-slot="4112723803"
+     data-ad-format="auto"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></li>
+</ul>
+</div><!-- Start Floating ShareMe Bar -->
+<div id="shareme">
+<div class="sbutton">
+<a class="socialg" rel="nofollow" href="#" onclick="popUp=window.open('http://pinterest.com/pin/create/button/?url=https://www.pendrivelinux.com/yumi-multiboot-usb-creator/&amp;title=YUMI &#8211; Multiboot USB Creator', 'popupwindow', 'scrollbars=yes,width=800,height=400,top='+(screen.height-400)/2+',left='+(screen.width-800)/2);popUp.focus();return false"></a> 
+</div>
+
+<div class="sbutton">
+<a class="socialf" rel="nofollow" href="#" onclick="popUp=window.open('https://www.facebook.com/sharer.php?u=https://www.pendrivelinux.com/yumi-multiboot-usb-creator/', 'popupwindow', 'scrollbars=yes,width=800,height=400,top='+(screen.height-400)/2+',left='+(screen.width-800)/2);popUp.focus();return false"></a>
+</div>
+
+<div class="sbutton">
+<a class="socialt" rel="nofollow" href="#" onclick="popUp=window.open('https://twitter.com/intent/tweet?url=https://www.pendrivelinux.com/yumi-multiboot-usb-creator/&amp;text=YUMI &#8211; Multiboot USB Creator', 'popupwindow', 'scrollbars=yes,width=800,height=400,top='+(screen.height-400)/2+',left='+(screen.width-800)/2);popUp.focus();return false"></a>
+</div>
+
+<div class="sbutton">
+<a class="socials" rel="nofollow" href="#" onclick="popUp=window.open('https://www.stumbleupon.com/submit?url=https://www.pendrivelinux.com/yumi-multiboot-usb-creator/&amp;text=YUMI &#8211; Multiboot USB Creator', 'popupwindow', 'scrollbars=yes,width=800,height=400,top='+(screen.height-400)/2+',left='+(screen.width-800)/2);popUp.focus();return false"></a>
+</div>
+
+</div>  
+<!-- End Floating ShareMe Bar -->
+<div id="footer">
+	
+<center style="margin:auto; padding:20px; width:90%; height:auto;"></center>
+	
+<p>©2006-2020 Pendrivelinux.com - Run Linux From USB. <a rel="nofollow" href="https://www.pendrivelinux.com/resources/">Credits, Resources and Sources</a> - <a href="https://www.pendrivelinux.com/privacy-policy/" rel="nofollow"> Cookies & Privacy Policy</a><br />
+Linux® is a registered trademark of Linus Torvalds. Windows is a registered trademark of Microsoft. Other names and logos may also be trademarked by their respective owners.</p>	
+</div>
+</div>
+<div id="footimg"></div>
+<noscript><style>.lazyload{display:none;}</style></noscript><script data-noptimize="1">window.lazySizesConfig=window.lazySizesConfig||{};window.lazySizesConfig.loadMode=1;</script><script async data-noptimize="1" src='https://www.pendrivelinux.com/wp-content/plugins/autoptimize/classes/external/js/lazysizes.min.js?ao_version=2.7.7'></script><link rel='stylesheet' id='jquery-ui-smoothness-css'  href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css' type='text/css' media='all' />
+
+<script type='text/javascript' id='caos-default-analytics-js-after'>
+    
+
+
+
+    window.ga = window.ga || function () {(ga.q = ga.q || []).push(arguments);};
+    ga.l = +new Date;
+
+    ga('create', 'UA-8097134-1', {"cookieName":"caosLocalGa","cookieDomain":"www.pendrivelinux.com","cookieExpires":604800,"cookieFlags":"samesite=none;secure"});
+        ga('set', 'anonymizeIp', true);    ga('send', 'pageview');
+                setTimeout("ga('send', 'event', 'Adjusted Bounce Rate', '30 seconds')", 30000);
+        
+</script>
+
+<script type='text/javascript' src='https://www.pendrivelinux.com/wp-includes/js/jquery/jquery.js' id='jquery-core-js'></script>
+
+
+
+
+<script defer="defer" type="text/javascript">
+jQuery(document).ready(function($) {
+$( "#tabs" ).tabs();
+});
+</script>
+
+<script defer src="https://www.pendrivelinux.com/wp-content/cache/autoptimize/js/autoptimize_fde27aa3a6dcfe60e7189b4a8ed26271.js"></script></body>
+</html><!-- hyper cache 2020-09-02 16:19:24 -->
